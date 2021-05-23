@@ -1,0 +1,147 @@
+main {
+    background-color: #2c0e37;
+}
+#title{
+    height: 95vh;
+    width: auto;
+}
+
+nav {
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+}
+nav .button{
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.button {
+    background-color: #fffaad;
+    border: 1px solid black;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 2;
+    box-shadow: 5px 5px #a9d2d5;
+    padding: 5px 20px 5px 20px;
+}
+
+.button:hover{
+    background-color: #df90c7;
+    box-shadow: none;
+    transition: 0.4s ease-in-out;
+}
+
+#intro-text {
+    padding-top: 25vh;
+    padding-left: 5vw;
+}
+
+#intro-text h1{
+    font-family: "Roboto", sans-serif;
+    color: #fff782;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 0.3em;
+    text-shadow: 5px 2px #df90c7, 8px 4px #f33fbd;
+}
+
+#intro-text h2{
+    font-family: "Pacifico", cursive;
+    color: #a9d2d5;
+    font-size: 2rem;
+}
+
+#intro-text p{
+    font-size: 1.5em;
+    color: #c6f2f5;
+    letter-spacing: 1px;
+}
+
+/* #circle {
+    height: 10vh;
+    width: 10vh;
+    background: #df90c7;
+    border-radius: 100px;
+    margin-left: 70vw;
+    margin-bottom: 500px;
+
+} */
+
+#about {
+    background-color: #df90c7;
+    width: 90vw;
+    height: 80vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#about div {
+    border: 3px solid #2c0e37;
+    box-shadow: 5px 5px #fff782;
+    height: 80%;
+    width: 30%;
+}
+
+#about div h1{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: #fff782;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+#about div img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about div img:hover {
+    border: 5px solid #fff782;
+    transition: 0.2s ease-in;
+}
+
+#about div p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+#recipes {
+    background-color: #a9d2d5;
+    width: 90vw;
+    height: 80vh;
+    margin: 10vh 5vw 5vh 5vw;
+}
+
+#recipes h1{
+    font-family: Roboto, sans-serif;
+    color: #fff782;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3%;
+    font-size: 3rem;
+    letter-spacing: 0.3em;
+    text-shadow: 2px 2px #a9d2d5, 8px 4px #2c0e37;
+}
+
+#recipes div{
+    display: grid;
+}
+
+footer {
+    font-size: 18px;
+    text-align:left;
+    border: 1px solid #fff782;
+}
