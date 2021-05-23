@@ -120,10 +120,9 @@ nav .button{
 
 #recipes {
     background-color: #a9d2d5;
-    width: 90vw;
     height: auto;
-    padding-bottom: 10%;
-    margin: 10vh 5vw 0vh 5vw;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 #recipes h1{
@@ -173,8 +172,43 @@ nav .button{
     border-radius: 50%;
 }
 
+#gradient{
+    background: linear-gradient(180deg, #a9d2d5, #2c0e37);
+    width: 90vw;
+    margin: auto;
+    height: 300px;
+    display: block;
+    content: "";
+    margin-bottom: 0;
+}
+
+#quotes {
+    background-color: #fffaad;
+    /* height: auto; */
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 2vh;
+}
+
+#quotes h1{
+    font-family: Roboto, sans-serif;
+    color: #2c0e37;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3%;
+    font-size: 3rem;
+    letter-spacing: 0.3em;
+    text-shadow: 2px 2px #a9d2d5;
+}
+
+#quotes p{
+    text-align: center;
+    font-family: 'Roboto Mono', 'Arial';
+    font-size: 1.3rem;
+}
+
 footer {
     font-size: 18px;
-    text-align:left;
+    text-align:center;
     border: 1px solid #fff782;
 }
