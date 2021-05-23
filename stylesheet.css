@@ -1,5 +1,6 @@
 main {
     background-color: #2c0e37;
+    padding-bottom: 50px;
 }
 #title{
     height: 95vh;
@@ -120,8 +121,9 @@ nav .button{
 #recipes {
     background-color: #a9d2d5;
     width: 90vw;
-    height: 80vh;
-    margin: 10vh 5vw 5vh 5vw;
+    height: auto;
+    padding-bottom: 10%;
+    margin: 10vh 5vw 0vh 5vw;
 }
 
 #recipes h1{
@@ -135,8 +137,40 @@ nav .button{
     text-shadow: 2px 2px #a9d2d5, 8px 4px #2c0e37;
 }
 
-#recipes div{
+#wrapper{
     display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 2em;
+    grid-row-gap: 3em;
+    grid-auto-rows: minmax(50vh, auto);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.recipe-card {
+    /* border: 3px solid black; */
+    background-color: #daa89b;
+    box-shadow: 8px 8px #fffaad;
+    border-radius: 50%;
+}
+.recipe-card:hover {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 18px 8px #fffaad;
+    transition: 0.4s ease-in-out;
+}
+
+.recipe-card h2{
+    font-family: "Pacifico", cursive;
+    color: #4a2948;
+    text-align: center;
+}
+
+.recipe-card img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
 }
 
 footer {
